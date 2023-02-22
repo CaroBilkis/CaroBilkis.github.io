@@ -31,6 +31,6 @@
   },
   "main": "dist/server/index.js",
   "engines": {
-    "node": "10"
+    "node": "18.x"
   }
 }
