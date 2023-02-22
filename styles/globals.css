@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/clash-display');
 
 @layer base{
   .faq-active{
@@ -49,7 +49,9 @@
     @apply shadow text-4xl w-full h-14  pt-1 rounded-lg;
    }
 }
-
+.font-clash{
+  font-family: 'Clash Display', sans-serif;
+}
 .font-rubik{
   font-family: 'Rubik', sans-serif;
 }
@@ -82,40 +84,3 @@
   font-family: 'League Spartan', sans-serif;
 }
 
-
-@font-face {
-	font-family: "ClashDisplay";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-Bold.ttf" );
-	font-weight: 700;
-}
-
-
-@font-face {
-	font-family: "Clash Display";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-SemiBold.ttf" );
-	font-weight: 600;
-}
-
-@font-face {
-	font-family: "ClashDisplay";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-Medium.ttf" );
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: "ClashDisplay";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-Regular.ttf" );
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: "ClashDisplay";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-Light.ttf" );
-	font-weight: 300;
-}
-
-@font-face {
-	font-family: "ClashDisplay";
-	src: url("/styles/font/ClashDisplay/ClashDisplay-ExtraLight.ttf" );
-	font-weight: 200;
-}
